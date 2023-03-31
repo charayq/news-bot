@@ -2,7 +2,7 @@ import requests
 import json
 import nltk
 from newspaper import Article
-api_key = "your api key from NewsAPI"
+api_key = "ce3f681f7a4c4ae3b805c1b180295853"
 url = f"https://newsapi.org/v2/top-headlines?sources=google-news&pageSize=1&apiKey={api_key}"
 response = requests.get(url)
 nltk.download('punkt')
